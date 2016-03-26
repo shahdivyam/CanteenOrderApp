@@ -1,0 +1,233 @@
+/* CSS for item box */
+.mainBox{
+    height: 300px;
+    width:250px;
+	margin:10px;
+}
+
+.itemName{
+    position:relative;
+    height:50px;
+    line-height:50px;
+	font-size:36px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:Black;
+	background-color: Aqua;
+    width:250px;
+	padding:5px;
+}
+.itemName:hover{
+	background-color:khaki;
+	transition:all 0.3s ease-in;
+	}
+.itemImage{
+    position:relative;
+    top:0px;
+    height:200px;
+    background-color: LightSlateGray ;
+    width:250px;
+
+}
+
+.itemFooter{
+    position:relative;
+    height:50px;
+    width:250px;
+}
+
+.itemRate{
+    position:relative;
+    height:50px;
+	line-height:50px;
+    background-color: SandyBrown;
+	font-size:30px;
+    width:125px;
+}
+
+.itemAddToCart{
+    position:absolute;
+    top:0px;
+    left:150px;
+    height:50px;
+	line-height:50px;
+    background-color:yellowgreen;
+    width:100px;
+	font-size:25px;
+	cursor:pointer;
+}
+.itemAddToCart:hover{
+    left:125px;
+    background-color:MediumSlateBlue ;
+    width:125px;
+	cursor:pointer;
+	transition:all 0.5s ease-in;
+}
+/* End CSS*/
+
+/*CSS FOR Cart item box*/
+
+.cartBox{
+	width:70%;
+	height:120px;
+	border: 1px solid black;
+	position:relative;
+	margin:10px;
+	text-align:center;
+}
+.cartItemName{
+	position:relative;
+	left:0px;
+	height:50px;
+	line-height:50px;
+	margin:1%;
+	width:33%;
+	background-color:Peru;
+	text-align:center;
+	font-size:35px;
+}
+.changeQuantity{
+	position:absolute;
+	display:inline;
+	top:0px;
+	left:34%;
+	margin:1%;
+	width:30%;
+	height:50px;
+	line-height:50px;
+	font-size:35px;
+	font-weight:bolder;
+}
+.rate{
+	position:absolute;
+	left:65%;
+	top:0px;
+	margin:1%;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	font-size:35px;
+	width:33%;
+	background-color:SpringGreen;
+}
+.remove{
+	position:absolute;
+	top:55px;
+	margin:1%;
+	left:0px;
+	width:33%;
+	background-color:tomato;
+	height:50px;
+	line-height:50px;
+	font-size:30px;
+}
+.remove:hover{
+	background-color:red;
+	}
+.quantity{
+	position:absolute;
+	display:inline;
+	top:55px;
+	left:34%;
+	margin:1%;
+	width:30%;
+	height:50px;
+	background-color:orange;
+	line-height:50px;
+	font-size:35px;
+}
+.total{
+	position:absolute;
+	left:65%;
+	top:55px;
+	margin:1%;
+	text-align:center;
+	font-size:35px;
+	height:50px;
+	line-height:50px;
+	width:33%;
+	background-color:yellowgreen;
+	
+}
+.itemID{
+	display:none;
+}
+.increase{
+	cursor:pointer;
+	position:absolute;
+	width:40%;
+	padding:5%;
+	height:40px;
+	left:0px;
+	background-color:pink;
+	line-height:40px;
+}
+.decrease{
+	cursor:pointer;
+	position:absolute;
+	width:40%;
+	padding:5%;
+	height:40px;
+	left:50%;
+	background-color:pink;
+	line-height:40px;
+}
+/* End CSS */
+/* CSS for Submission Form*/
+
+.checkout
+{
+position:relative;
+top:50px;
+height:100px;
+
+width:100%;
+background:transparent;
+left:0px;
+clear:both;
+}
+
+.checkout_total
+{
+position:relative;
+float:left;
+margin:10px;
+width:30%;
+background:#0992D4;
+height:70px;
+line-height:70px;
+font-size:50px;
+border-radius:10px;
+margin-left:25px;
+text-align:center;
+}
+
+.checkout_form
+{
+position:relative;
+float:left;
+margin:10px;
+width:30%;
+background:#0992D4;
+height:70px;
+border-radius:10px;
+text-align:center;
+align-items:center;
+}
+
+.checkout_submit
+{
+position:relative;
+float:left;
+margin:10px;
+width:30%;
+background:#0992D4;
+height:70px;
+border-radius:10px;
+}
+
+.checkout_submit:hover
+{
+cursor:pointer;
+background:#003549;
+color:white;
+}
