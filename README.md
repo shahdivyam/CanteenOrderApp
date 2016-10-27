@@ -5,4 +5,4 @@ With this app all you have to do is find a table for yourself and add items you 
 
 It becomes as simple than that.
 
-For more information regarding this Web application,Look out for Wiki
+For more information regarding this Web application,Look out for Wiki!
