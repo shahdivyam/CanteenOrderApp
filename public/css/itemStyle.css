@@ -15,9 +15,11 @@
 	background-color: Aqua;
     width:250px;
 	padding:5px;
+    transition: all 0.3s ease 0s;
 }
 .itemName:hover{
-	background-color:khaki;
+	background: #428BCA;
+    color: #fff;
 	transition:all 0.3s ease-in;
 	}
 .itemImage{
